@@ -40,7 +40,7 @@ export function Home() {
 
   function handleCreateNewCycle(data: NewCycleFormData) {
     console.log(data)
-    reset() //Reseta os campos que estão no defaultValues do useForm
+    reset() // Reseta os campos que estão no defaultValues do useForm
   }
 
   console.log(formState.errors)
